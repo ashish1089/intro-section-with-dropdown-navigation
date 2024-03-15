@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --Almost-White: hsl(0, 0%, 98%);
+  --Medium-Gray: hsl(0, 0%, 41%);
+  --Almost-Black: hsl(0, 0%, 8%);
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+ul a {
+  color: var(--Medium-Gray);
+}
+
+ul a:hover {
+  color: var(--Almost-Black);
+}
+
+button:hover {
+  color: var(--Almost-Black);
+}
+
+@media (min-width:768px) {
+
+  section>div>img {
+    max-width: 7rem;
+  }
+
+}
+
+.sidebar>ul>li {
+  margin-bottom: 1rem;
+}
+
+.features__options>li,
+.company__options>li {
+  color: var(--Medium-Gray);
+}
